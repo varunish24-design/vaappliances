@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaappliance - Home Appliance Services in Coimbatore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x600?text=Vaappliance+Services');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        .services {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service h2 {
+            color: #007bff;
+        }
+
+        .cta {
+            background-color: #28a745;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            margin: 0;
+        }
+
+        .cta a {
+            display: inline-block;
+            background-color: white;
+            color: #28a745;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .floating-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .floating-icon a {
+            display: block;
+            width: 60px;
+            height: 60px;
+            background-color: #25d366;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .floating-icon .call {
+            background-color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero p {
+                font-size: 1.2em;
+            }
+
+            .services {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Vaappliance</h1>
+        <p>Reliable Home Appliance Services in Coimbatore</p>
+    </header>
+
+    <section class="hero">
+        <div style="background-color: rgba(255, 255, 255, 0.9); padding: 30px; border-radius: 10px; max-width: 800px;">
+            <h1 style="color: #007bff; margin-bottom: 15px;">Welcome to Vaappliance</h1>
+            <p style="color: #007bff; font-weight: 500;">Your trusted partner for appliance repairs and service</p>
+            <p style="color: #007bff; font-weight: bold; font-size: 2em; margin-top: 15px;">90424 91075</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service">
+            <img src="images/washing_machine_service.png" alt="Washing Machine Service"
+                style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+            <h2>Washing Machine Service in Coimbatore</h2>
+            <p>We provide expert washing machine repair and maintenance services. From fixing leaks to replacing parts,
+                our technicians ensure your machine runs smoothly.</p>
+            <p style="margin-top: 10px;"><strong>Call Now: <a href="tel:09042491075"
+                        style="color: #007bff; text-decoration: none;">90424 91075</a></strong></p>
+        </div>
+        <div class="service">
+            <img src="images/fridge_service.png" alt="Fridge Service"
+                style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+            <h2>Fridge Service in Coimbatore</h2>
+            <p>Keep your food fresh with our professional fridge servicing. We handle cooling issues, defrosting
+                problems, and more to maintain optimal performance.</p>
+            <p style="margin-top: 10px;"><strong>Call Now: <a href="tel:09042491075"
+                        style="color: #007bff; text-decoration: none;">90424 91075</a></strong></p>
+        </div>
+        <div class="service">
+            <img src="images/ac_service.png" alt="AC Service"
+                style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+            <h2>AC Service in Coimbatore</h2>
+            <p>Stay cool with our comprehensive AC repair and maintenance services. We offer installation, repair, and
+                regular servicing for all types of air conditioners.</p>
+            <p style="margin-top: 10px;"><strong>Call Now: <a href="tel:09042491075"
+                        style="color: #007bff; text-decoration: none;">90424 91075</a></strong></p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Need Service? Call Us Now!</h2>
+        <p>Contact us at <strong>090424 91075</strong> for quick and reliable appliance services.</p>
+        <a href="tel:09042491075">Call Now</a>
+    </section>
+
+    <div class="floating-icon">
+        <a href="tel:09042491075" class="call" title="Call Us">📞</a>
+        <a href="https://wa.me/909042491075" title="WhatsApp Us">💬</a>
+    </div>
+
+    <script>
+        // Optional: Add any interactive features here
+    </script>
+</body>
+
+</html>
